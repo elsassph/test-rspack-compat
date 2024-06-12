@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@lightningjs/renderer':
-    specifier: ^0.9.1
-    version: 0.9.1
+    specifier: ^0.9.2
+    version: 0.9.2
   '@lightningjs/solid':
     specifier: ^0.16.1
-    version: 0.16.1(@lightningjs/renderer@0.9.1)(solid-js@1.8.17)
+    version: 0.16.1(@lightningjs/renderer@0.9.2)(solid-js@1.8.17)
   core-js:
     specifier: ^3.37.1
     version: 3.37.1
@@ -95,8 +95,8 @@ packages:
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
     dev: true
 
-  /@lightningjs/renderer@0.9.1:
-    resolution: {integrity: sha512-BIiwhARmRuiH4SoCSRVXwdvyEOSurNN/PV5yrxEAuKm5YEidYDev9Lm2TfX3hjl4vjFtruxy0qwwgMq7n2/LaQ==}
+  /@lightningjs/renderer@0.9.2:
+    resolution: {integrity: sha512-zR4PUv77hfNsbOx0iSNcCQgyw9vFpBuECbq4MhWSqGE8h8oKRibmpzp3YF4UbJxXtrPDoLWgcosgFNZodGEVcQ==}
     engines: {node: '>= 20.9.0', npm: '>= 10.0.0', pnpm: '>= 8.9.2'}
     requiresBuild: true
     dependencies:
@@ -105,13 +105,13 @@ packages:
       memize: 2.1.0
     dev: false
 
-  /@lightningjs/solid@0.16.1(@lightningjs/renderer@0.9.1)(solid-js@1.8.17):
+  /@lightningjs/solid@0.16.1(@lightningjs/renderer@0.9.2)(solid-js@1.8.17):
     resolution: {integrity: sha512-UjihlqkYBxn9bk8CyqRL+LIyqGxGCGiTj9lnSjnjhtthm8QWB5a7zQgEmPgGejbV/jOCVKz2MmVhJL9kDMvIAQ==}
     peerDependencies:
       '@lightningjs/renderer': ^0.8.4
       solid-js: '*'
     dependencies:
-      '@lightningjs/renderer': 0.9.1
+      '@lightningjs/renderer': 0.9.2
       solid-js: 1.8.17
     dev: false
 
