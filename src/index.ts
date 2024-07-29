@@ -1,3 +1,5 @@
+import "./main.css";
+
 import { R, S } from "./foo";
 
 class Foo {
@@ -14,3 +16,5 @@ class Foo {
 
 const foo = new Foo();
 console.log(foo.a);
+
+document.body.innerText = "Hello world";

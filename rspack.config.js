@@ -16,6 +16,10 @@ module.exports = {
     minimize: true,
     concatenateModules: true,
   },
+  performance: {
+    maxEntrypointSize: 100 * 1024,
+    maxAssetSize: 100 * 1024,
+  },
   module: {
     rules: [
       {
@@ -34,22 +38,10 @@ module.exports = {
         },
         type: "javascript/auto",
       },
-      // {
-      //   test: /\.js$/,
-      //   include: [/@lightningjs/],
-      //   loader: "builtin:swc-loader",
-      //   options: {
-      //     target: "es5",
-      //     jsc: {
-      //       externalHelpers: true,
-      //     },
-      //     env: {
-      //       mode: "usage",
-      //       coreJs: "3.37.1",
-      //     },
-      //   },
-      //   type: "javascript/auto",
-      // },
+      /*{
+        test: /\.css$/,
+        type: "css/auto",
+      },*/
     ],
   },
   ignoreWarnings: [
